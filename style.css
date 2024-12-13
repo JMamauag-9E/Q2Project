@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(to bottom left, #e2b8fc, #ba94d1, #9d77b5, #8f77b5, #675487);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.supercalifragilisticexpialidocious {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    color: black;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+#container-main {
+    position: relative;
+    background-image: url(https://contents.pep.ph/images2/images2/2022/09/19/adobo-insert-1-1663589965.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border: 5px solid #8c00ff;
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px #ababab;
+    z-index: 2;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+#container-about {
+    background-color: #a380bd;
+    color: black;
+    border: 5px solid #8c00ff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-body h2, .about-body h3 {
+    color: black;
+}
+
+.about-body p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Link Styling */
+a {
+    color: #8c00ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container-request {
+    background-color: #a380bd;
+    color: black;
+    border: 5px solid #8c00ff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#container-response {
+    background-color: #a380bd;
+    color: black;
+    border: 5px solid #8c00ff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#container-about {
+    background-color: #a380bd;
+    color: black;
+    border: 5px solid #8c00ff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.about-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about-body img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
